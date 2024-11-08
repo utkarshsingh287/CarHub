@@ -1,11 +1,11 @@
-/* Reset some default styling */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -13,7 +13,7 @@ body {
     color: #333;
 }
 
-/* Header Section */
+
 header {
     background-color: #1a1a1a;
     color: #fff;
@@ -41,7 +41,7 @@ header nav a:hover, header nav a.active {
     color: #ff9800;
 }
 
-/* Sell Car Section */
+
 .sell-car {
     max-width: 900px;
     margin: 3rem auto;
@@ -66,7 +66,7 @@ header nav a:hover, header nav a.active {
     color: #555;
 }
 
-/* Form Styling */
+
 form {
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ input:focus, select:focus {
     border: 1px solid #ff9800;
 }
 
-/* Submit Button */
+
 button.submit-btn {
     padding: 1rem;
     background-color: #ff9800;
@@ -115,7 +115,7 @@ button.submit-btn:hover {
     background-color: #e68900;
 }
 
-/* Footer Section */
+
 footer {
     background-color: #1a1a1a;
     color: #fff;
@@ -128,13 +128,13 @@ footer p {
     font-size: 1rem;
 }
 
-/* Container for content */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .sell-car {
         padding: 2rem;
