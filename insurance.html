@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance | CarHub</title>
+    <link rel="stylesheet" href="insurance.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">CarHub</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="sell-car.html">Sell Your Car</a>
+            <a href="insurance.html" class="active">Insurance</a>
+        </nav>
+    </header>
+
+    
+    <section class="insurance">
+        <div class="container">
+            <h2>Car Insurance</h2>
+            <p>Your car deserves the best protection, and we are here to help you get the right car insurance policy for peace of mind on the road. Whether you’re looking for comprehensive coverage or basic insurance, we’ve got you covered.</p>
+
+            <div class="insurance-options">
+                <div class="insurance-option">
+                    <h3>Comprehensive Insurance</h3>
+                    <p>Get complete coverage for accidents, theft, natural calamities, and third-party damages. Ideal for new and valuable cars.</p>
+                </div>
+
+                <div class="insurance-option">
+                    <h3>Third-Party Liability Insurance</h3>
+                    <p>Protect yourself from legal liability in case of an accident that damages other vehicles or property.</p>
+                </div>
+
+                <div class="insurance-option">
+                    <h3>Own Damage Insurance</h3>
+                    <p>This option covers damages to your car due to accidents, fire, or vandalism, but not third-party liabilities.</p>
+                </div>
+
+                <div class="insurance-option">
+                    <h3>Personal Accident Coverage</h3>
+                    <p>Provide financial protection in the event of an accident, covering medical expenses and personal injury claims.</p>
+                </div>
+            </div>
+
+            <h3>Get a Free Insurance Quote</h3>
+            <p>Fill out the form below to get a customized quote based on your car's details and coverage preferences.</p>
+
+            <form action="/submit_insurance_quote" method="POST">
+                <div class="form-group">
+                    <label for="car-model">Car Make & Model:</label>
+                    <input type="text" id="car-model" name="car_model" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="car-year">Year of Manufacture:</label>
+                    <input type="number" id="car-year" name="car_year" required min="1900" max="2024">
+                </div>
+
+                <div class="form-group">
+                    <label for="car-value">Car Value:</label>
+                    <input type="number" id="car-value" name="car_value" required min="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="coverage-type">Select Coverage Type:</label>
+                    <select id="coverage-type" name="coverage_type" required>
+                        <option value="comprehensive">Comprehensive Insurance</option>
+                        <option value="third-party">Third-Party Liability Insurance</option>
+                        <option value="own-damage">Own Damage Insurance</option>
+                        <option value="personal-accident">Personal Accident Coverage</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-name">Your Name:</label>
+                    <input type="text" id="contact-name" name="contact_name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-email">Your Email:</label>
+                    <input type="email" id="contact-email" name="contact_email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-phone">Your Phone Number:</label>
+                    <input type="tel" id="contact-phone" name="contact_phone" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Get Quote</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 CarHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
