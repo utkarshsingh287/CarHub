@@ -11,7 +11,7 @@ body {
     background: #f4f4f9;
 }
 
-/* Header */
+
 header {
     position: fixed;
     width: 100%;
@@ -118,7 +118,7 @@ header nav a:hover::after {
     transform: scale(1.05);
 }
 
-/* Inventory Section */
+
 .inventory {
     padding: 80px 10%;
     text-align: center;
@@ -215,7 +215,7 @@ header nav a:hover::after {
     transform: scale(1.05);
 }
 
-/* Footer */
+
 footer {
     background: #333;
     color: #fff;
