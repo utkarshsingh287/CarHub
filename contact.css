@@ -1,19 +1,18 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and font settings */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
     color: #333;
 }
 
-/* Header Section (Navbar) */
-header {
+
     background-color: #333;
     padding: 1rem 2rem;
     display: flex;
@@ -53,7 +52,7 @@ nav a.active {
     color: #fff;
 }
 
-/* Contact Us Section */
+
 .contact {
     padding: 3rem 2rem;
     max-width: 1100px;
@@ -154,7 +153,7 @@ button.submit-btn:hover {
     background-color: #e68900;
 }
 
-/* Footer Section */
+
 footer {
     background-color: #1a1a1a;
     color: #fff;
@@ -167,7 +166,7 @@ footer p {
     font-size: 1rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .contact-content {
         flex-direction: column;
