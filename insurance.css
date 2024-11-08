@@ -1,18 +1,18 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and font settings */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
     color: #333;
 }
 
-/* Header Section (Navbar) */
+
 header {
     background-color: #333;
     padding: 1rem 2rem;
@@ -53,12 +53,12 @@ nav a.active {
     color: #fff;
 }
 
-/* Main Content Section */
+
 section {
     padding: 2rem;
 }
 
-/* Car Insurance Section */
+
 .insurance {
     max-width: 900px;
     margin: 3rem auto;
@@ -161,7 +161,7 @@ button.submit-btn:hover {
     background-color: #e68900;
 }
 
-/* Footer Section */
+
 footer {
     background-color: #1a1a1a;
     color: #fff;
@@ -174,7 +174,7 @@ footer p {
     font-size: 1rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
